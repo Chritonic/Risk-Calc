@@ -24,6 +24,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     position: relative;
+    zoom: 125%;
 }
 hr {
     width: 95%;
