@@ -1,5 +1,6 @@
 body {
     font-family: Roboto, sans-serif;
+    font-size: 15pt;
     color: white;
     background-color: transparent;
     backdrop-filter: blur(3.5px);
@@ -19,12 +20,11 @@ body {
     height: 90%;
     max-height: 100vh;
     overflow: hidden;
-    width: 300px;
+    width: 375px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     position: relative;
-    zoom: 125%;
 }
 hr {
     width: 95%;
@@ -47,8 +47,8 @@ h3 {
     text-align: left;
     color: white;
     font-size: 1.6em;
-    margin-top: -1.5%;
-    margin-bottom: 1.6%;
+    margin-top: 2%;
+    margin-bottom: 1.7%;
 }
 h4 {
     flex: 1;
@@ -59,7 +59,7 @@ h4 {
     margin-bottom: 15px;
 }
 .logo {
-    width: 100px;
+    width: 125px;
     height: auto;
     margin-top: 7px;
     align-items: center;
@@ -70,7 +70,7 @@ h4 {
     align-items: center;
 }
 label {
-    margin-top: 10px;
+    margin-top: 8px;
     display: block;
 }
 input, select {
@@ -83,19 +83,22 @@ input, select {
     box-sizing: border-box;
 }
 input[type="number"] {
-    height: 42px;
+    height: 48px;
 }
 select {
-    height: 42px;
+    height: 48px;
 }
 #employees {
     margin-top: 8px;
+    font-size: 12pt;
 }
 #workingHours {
     margin-top: 8px;
+    font-size: 12pt;
 }
 #blueLight {
     margin-top: 10px;
+    font-size: 12pt;
 }
 .slider-container {
     margin-top: 10px;
@@ -109,7 +112,7 @@ select {
 #percentageSlider {
     width: 100%;
     appearance: none;
-    height: 6px;
+    height: 25px;
     background: #00abe9;
     border-radius: 6px;
     outline: none;
@@ -120,8 +123,8 @@ select {
 }
 #percentageSlider::-webkit-slider-thumb {
     appearance: none;
-    width: 16px;
-    height: 33px;
+    width: 17px;
+    height: 38px;
     background-color: #565656;
     border-radius: 25%;
     cursor: pointer;
@@ -147,17 +150,17 @@ button, .screen-button {
     background-color: #00abe9;
     color: white;
     border: none;
-    border-radius: 5px;
-    font-size: 18px;
+    border-radius: 10%;
+    font-size: 22px;
     cursor: pointer;
     width: 100%;
     text-align: center;
-    height: 48px;
+    height: 64px;
 }
 #continueButton {
     align-self: center;
     padding: 15px;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: bold;
     height: auto;
     margin-top: 10px;
@@ -170,7 +173,7 @@ button, .screen-button {
 #nextButton {
     align-self: center;
     padding: 15px;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: bold;
     height: auto;
     margin-top: 15px;
@@ -181,7 +184,7 @@ button, .screen-button {
 #solutionsButton {
     align-self: center;
     padding: 15px;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: bold;
     height: auto;
     margin-top: 15px;
@@ -194,7 +197,7 @@ button:hover, .screen-button:hover {
 }
 .screen-buttons {
     display: flex;
-    gap: 7px;
+    gap: 8px;
     margin-top: 11px;
     margin-bottom: 5px;
 }
@@ -228,7 +231,7 @@ button:hover, .screen-button:hover {
 .results-table {
     width: 100%;
     color: white;
-    font-size: 16px;
+    font-size: 20px;
 }
 .results-table td {
     padding: 5px;
