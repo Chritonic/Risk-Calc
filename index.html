@@ -11,7 +11,7 @@
 <body>
     <div class="container" id="inputScreen">
         <div class="header">
-            <img src="images/eyesafe-logo.png" alt="Eyesafe Logo" class="logo">
+            <img src="images/cp-eyesafe-logo.png" alt="Eyesafe Logo" class="logo">
             <h2>SCREEN TIME RISK CALCULATOR</h2>
         </div>
         
@@ -54,7 +54,7 @@
     
     <div class="container hidden" id="resultsScreen">
         <div class="header">
-            <img src="images/eyesafe-logo.png" alt="Eyesafe Logo" class="logo">
+            <img src="images/cp-eyesafe-logo.png" alt="Eyesafe Logo" class="logo">
             <button class="back-button" onclick="goBack()">❮</button>
             <h2>SCREEN TIME RISK CALCULATOR</h2>
 
@@ -186,7 +186,7 @@
     
             const totalValue = screenCountValue + workingHoursValue + percentageValue + blueLightValue;
             document.getElementById('resultValue').textContent = totalValue;
-            document.getElementById('riskImage').src = `images/hrisk${totalValue}.png`;
+            document.getElementById('riskImage').src = `images/cp-hrisk${totalValue}.png`;
             setRiskScoreColor(totalValue);
             document.getElementById('inputScreen').classList.add('hidden');
             document.getElementById('resultsScreen').classList.remove('hidden');
