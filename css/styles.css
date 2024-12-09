@@ -358,8 +358,8 @@ button:hover, .screen-button:hover {
     line-height: 150%;
     text-align: justify;
     width: 95%;
-    margin-top: -10%;
-    margin-bottom: -2%;
+    margin-top: -13%;
+    margin-bottom: 1%;
     margin-inline: auto;
 }
 
@@ -369,6 +369,7 @@ button:hover, .screen-button:hover {
     align-self: center;
     width: 95%;
     height: auto;
+    margin-top: 5%;
 }
 
 .result-image {
